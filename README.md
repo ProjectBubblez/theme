@@ -1,2 +1,2 @@
 # theme
- :)) fu slice
+ :))
