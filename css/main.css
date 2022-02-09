@@ -1,10 +1,10 @@
 :root {
-    --version: "1.2";
+    --version: "1.3";
 }
 
 #app-mount .app-2CXKsg::before {
-    content: "Your version of Ultra is outdated. Please download the newest version from source";
-    display: var(--version1_2, block);
+    content: "Your version of BBadges is outdated. Please download the newest version from source";
+    display: var(--version1_3, block);
     background-color: var(--brand-experiment);
     color: #fff;
     font-size: 14px;
