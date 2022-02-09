@@ -1,8 +1,31 @@
 /**
 * @name BBadges
 * @author DarkMatter#1708
+* @authorId 200612445373464576
 * @description Badges for Bubblez Staff
-* @version 1.1
+* @source https://github.com/ProjectBubblez/theme/
+* @version 1.2
 */
 
-@import "https://projectbubblez.github.io/theme/css/badges.css";
+/* ----------------------------------------------------------------------- */
+
+/* IMPORT SOURCE CODE */
+
+@import "https://projectbubblez.github.io/theme/css/badges.css"; /* main code */
+@import url('https://projectbubblez.github.io/theme/css/font.css'); /* font code */
+@import url('https://projectbubblez.github.io/theme/css/main.css'); /* new side code */
+
+
+/* ----------------------------------------------------------------------- */
+
+/* SETTINGS */
+
+:root {
+    --version1_2: none;          /* Don't change */
+    --brand-experiment: #00CC99; /* Don't change */
+    --word-spacing: 3px;         /* Word spacing */
+    --letter-spacing: 0.25px;    /* Letter Spacing */
+    --message-line-spacing: 2;   /* Line spacing on messages */
+}
+
+/* ----------------------------------------------------------------------- */
