@@ -1,3 +1,5 @@
+/* ALL STAFF */
+
 /* DarkMatter */
 .message-2CShn3[data-user-id="200612445373464576"] > :not(.repliedMessage-3Z6XBG) .username-h_Y3Us,
 .message-2CShn3[data-author-id="200612445373464576"] > :not(.repliedMessage-3Z6XBG) .username-h_Y3Us,
@@ -219,10 +221,31 @@
 }
 
 
+/* ALL OTHER */
+
+/* CleanToes */
+.message-2CShn3[data-user-id="222004290926018560"] > :not(.repliedMessage-3Z6XBG) .username-h_Y3Us,
+.message-2CShn3[data-author-id="222004290926018560"] > :not(.repliedMessage-3Z6XBG) .username-h_Y3Us,
+.message-2CShn3[vz-user-id="222004290926018560"] .username-h_Y3Us,
+.channel-1Shao0[data-user-id="222004290926018560"] .overflow-1wOqNV,
+.channel-1Shao0[vz-user-id="222004290926018560"] .overflow-1wOqNV,
+.member-2gU6Ar[data-user-id="222004290926018560"] .roleColor-nA7BqX,
+.member-2gU6Ar[vz-user-id="222004290926018560"] .roleColor-nA7BqX,
+.userPopout-2j1gM4[data-user-id="222004290926018560"] .username-3JLfHz,
+.userPopout-2j1gM4[vz-user-id="222004290926018560"] .username-3JLfHz,
+.root-8LYsGj[data-user-id="222004290926018560"] .username-3JLfHz {
+  color: transparent !important;
+  font-weight: bold;
+  background-size: 300%;
+  -webkit-animation: shine 10s linear infinite;
+          animation: shine 10s linear infinite;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(90deg, #34ebe5 0%, #e8eb34 50%, #34ebe5 100%);
+}
 
 
 
-
+/* Colour Animation */
 
 @-webkit-keyframes shine {
   to {
