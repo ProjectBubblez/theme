@@ -4,7 +4,7 @@
 * @authorId 200612445373464576
 * @description Badges for Bubblez Staff
 * @source https://github.com/ProjectBubblez/theme/
-* @version 1.2
+* @version 1.3
 */
 
 /* ----------------------------------------------------------------------- */
@@ -21,7 +21,7 @@
 /* SETTINGS */
 
 :root {
-    --version1_2: none;          /* Don't change */
+    --version1_3: none;          /* Don't change */
     --brand-experiment: #00CC99; /* Don't change */
     --word-spacing: 3px;         /* Word spacing */
     --letter-spacing: 0.25px;    /* Letter Spacing */
