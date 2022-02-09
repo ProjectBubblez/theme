@@ -1,10 +1,10 @@
 :root {
-    --version: "1.3";
+    --version: "1.4";
 }
 
 #app-mount .app-2CXKsg::before {
-    content: "Your version of BBadges is outdated. Please download the newest version from source";
-    display: var(--version1_3, block);
+    content: "Your version of BBadges is outdated. Please download the newest version (V"var(--version)") from source";
+    display: var(--version1_4, block);
     background-color: var(--brand-experiment);
     color: #fff;
     font-size: 14px;
@@ -15,8 +15,40 @@
 }
 
 [class^="socialLinks-"] + [class^="info-"] [class^="colorMuted-"]:first-child::before {
-    content: "BBadges " var(--version);
+    content: "BBadges V"var(--version);
     position: relative;
     top: 0px;
     display: block;
+}
+
+.wordmark-2u86JB{
+    position:static;
+    margin-right:auto;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    opacity:1;
+    pointer-events:none;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    order:1
+}
+.typeWindows-2-g3UY>.wordmark-2u86JB:before,.typeWindows-2-g3UY>.wordmark-2u86JB:after{
+    margin-left:3px;
+    font-weight:600;
+    white-space:nowrap;
+    order:1
+}
+.typeWindows-2-g3UY>.wordmark-2u86JB:before{
+    content:"BBadges";
+    color:rgba(0, 204, 153, 0.702);
+    font-size:14px;
+    text-shadow:0 0 3px #000
+}
+.typeWindows-2-g3UY>.wordmark-2u86JB:after{
+    content:"V"var(--version);
+    color:rgba(0,204,153,.3);
+    font-size:10px
 }
